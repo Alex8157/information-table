@@ -18,16 +18,16 @@ export function SortRow(props) {
         id
       </div>
       <div onClick={(e) => click(e)} className="sortRowBlock sortFirstName">
-        firstName
+        Имя
       </div>
       <div onClick={(e) => click(e)} className="sortRowBlock sortLastName">
-        lastName
+        Фамилия
       </div>
       <div onClick={(e) => click(e)} className="sortRowBlock sortEmail">
-        email
+        Эл.почта
       </div>
       <div onClick={(e) => click(e)} className="sortRowBlock sortPhone">
-        phone
+        Телефон
       </div>
     </div>
   );

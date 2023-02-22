@@ -15,15 +15,16 @@
   border-radius: 1vh;
 }
 
-.deletepopUpRow {
+.deletePopUpRow {
   margin-left: calc(100% - 2vh - 7px);
   border: 1px solid rgb(51, 56, 68);
   border-radius: 5px;
   background-color: rgb(255, 255, 239);
+  user-select: none;
   cursor: pointer;
 }
 
-.deletepopUpRow:hover {
+.deletePopUpRow:hover {
   background-color: rgb(235, 235, 220);
 }
 

@@ -4,7 +4,7 @@ export function PopUpRow(props) {
   return (
     <div className="popUpRow" onClick={props.close}>
       <div className="popUpRowCard" onClick={(e) => e.stopPropagation()}>
-        <button className="deletepopUpRow" onClick={props.close}>
+        <button className="deletePopUpRow" onClick={props.close}>
           X
         </button>
         <h3 style={{ margin: "0 0 5px 0" }}>
