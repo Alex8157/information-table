@@ -1,0 +1,28 @@
+.table {
+  margin: 5vh 0 5vh 0;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-height: 20vh;
+  border: 1px solid #333844;
+  position: relative;
+  word-break: break-all;
+}
+
+@media screen and (max-width: 1024px) {
+  .table {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .table {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .table {
+    font-size: small;
+  }
+}

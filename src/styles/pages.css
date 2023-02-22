@@ -1,0 +1,15 @@
+.pages {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 6vh;
+}
+
+.pageNumber {
+  margin: 0 5px 0 5px;
+  cursor: pointer;
+}
+
+.pageNumber:hover {
+  font-weight: bold;
+}

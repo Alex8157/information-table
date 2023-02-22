@@ -1,0 +1,35 @@
+.sortRow {
+  display: flex;
+  user-select: none;
+}
+
+.sortRowBlock {
+  border: 1px solid rgb(51, 56, 68);
+  text-align: center;
+  background-color: rgb(230, 230, 191);
+  cursor: pointer;
+}
+
+.sortRowBlock:hover {
+  background-color: rgb(210, 210, 172);
+}
+
+.sortId {
+  width: 8%;
+}
+
+.sortFirstName {
+  width: 16%;
+}
+
+.sortLastName {
+  width: 16%;
+}
+
+.sortEmail {
+  width: 38%;
+}
+
+.sortPhone {
+  width: 22%;
+}

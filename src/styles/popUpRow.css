@@ -1,0 +1,40 @@
+.popUpRow {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(51, 56, 68, 0.5);
+}
+
+.popUpRowCard {
+  width: 30%;
+  background-color: rgb(255, 255, 239);
+  padding: 2vh;
+  border-radius: 1vh;
+}
+
+.deletepopUpRow {
+  margin-left: calc(100% - 2vh - 7px);
+  border: 1px solid rgb(51, 56, 68);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 239);
+  cursor: pointer;
+}
+
+.deletepopUpRow:hover {
+  background-color: rgb(235, 235, 220);
+}
+
+@media screen and (max-width: 1240px) {
+  .popUpRowCard {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .popUpRowCard {
+    width: 80%;
+  }
+}
